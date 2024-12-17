@@ -1,7 +1,7 @@
 pub use self::{
     container::ContainerExt,
     tiles::TilesExt,
-    tree::{GRID, HORIZONTAL, TABS, TreeExt, VERTICAL},
+    tree::{GRID, HORIZONTAL, TAB, TreeExt, VERTICAL},
 };
 
 mod container;

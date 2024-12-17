@@ -1,6 +1,6 @@
 use egui_tiles::{ContainerKind, Tile, Tree};
 
-pub const TABS: usize = ContainerKind::Tabs as _;
+pub const TAB: usize = ContainerKind::Tabs as _;
 pub const HORIZONTAL: usize = ContainerKind::Horizontal as _;
 pub const VERTICAL: usize = ContainerKind::Vertical as _;
 pub const GRID: usize = ContainerKind::Grid as _;
@@ -19,7 +19,7 @@ impl<T> TreeExt<T> for Tree<T> {
                     container.add_child(child);
                 } else {
                     self.root = match CONTAINER_KIND {
-                        TABS => Some(self.tiles.insert_tab_tile(vec![root, child])),
+                        TAB => Some(self.tiles.insert_tab_tile(vec![root, child])),
                         HORIZONTAL => Some(self.tiles.insert_horizontal_tile(vec![root, child])),
                         VERTICAL => Some(self.tiles.insert_vertical_tile(vec![root, child])),
                         GRID => Some(self.tiles.insert_grid_tile(vec![root, child])),
