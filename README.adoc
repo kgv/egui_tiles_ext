@@ -1,3 +1,0 @@
-= egui tiles extension
-
-Extension methods for link:https://github.com/rerun-io/egui_tiles[`egui_tiles`]
