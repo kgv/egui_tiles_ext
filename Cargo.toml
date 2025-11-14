@@ -1,9 +1,9 @@
 [package]
 name = "egui_tiles_ext"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 
 [dependencies]
-eframe = { version = "0.33.0", default-features = false }
-egui = { version = "0.33.0", default-features = false }
+eframe = { version = "0.33.2", default-features = false }
+egui = { version = "0.33.2", default-features = false }
 egui_tiles = "0.14.0"
